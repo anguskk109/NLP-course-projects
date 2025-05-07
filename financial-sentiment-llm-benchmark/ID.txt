@@ -1,0 +1,16 @@
+(a) Your first and last name.
+Kai Wang
+(b) Your student number.
+1005422213
+(c) Your teach.cs login ID.
+wangka76
+wangka76@teach.cs.utoronto.ca
+(d) Your preferred contact email address.
+kaixxx.wang@mail.utoronto.ca
+(e) Whether you are an undergraduate or graduate
+undergraduate
+
+statement:
+By submitting this file, I declare that my electronic submission is my own work, and is
+in accordance with the University of Toronto Code of Behaviour on Academic Matters
+and the Code of Student Conduct, as well as the collaboration policies of this course

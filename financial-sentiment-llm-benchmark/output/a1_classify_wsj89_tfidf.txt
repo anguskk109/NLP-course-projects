@@ -1,0 +1,8 @@
+Results for GaussianNB:
+	Accuracy: 0.5783
+	Recall: [np.float64(0.5709), np.float64(0.5862)]
+	Precision: [np.float64(0.5949), np.float64(0.562)]
+	Confusion Matrix: 
+[[141 106]
+ [ 96 136]]
+

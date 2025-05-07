@@ -1,0 +1,8 @@
+	Accuracy: 0.8400
+	Recall: [0.6, 0.875, 1.0]
+	Precision: [0.75, 0.875, 0.8]
+	Confusion Matrix: 
+[[ 3  2  0]
+ [ 1 14  1]
+ [ 0  0  4]]
+

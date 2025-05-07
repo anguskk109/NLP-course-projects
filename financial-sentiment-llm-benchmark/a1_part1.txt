@@ -1,0 +1,50 @@
+run 1:
+22 of 25 examined
+	Accuracy: 0.8182
+	Recall: [0.6, 0.9286, 0.6667]
+	Precision: [1.0, 0.8125, 0.6667]
+	Confusion Matrix: 
+[[ 3  2  0]
+ [ 0 13  1]
+ [ 0  1  2]]
+
+run 2:
+	Accuracy: 0.8400
+	Recall: [0.6, 0.875, 1.0]
+	Precision: [0.75, 0.875, 0.8]
+	Confusion Matrix: 
+[[ 3  2  0]
+ [ 1 14  1]
+ [ 0  0  4]]
+
+run 3:
+ 	Accuracy: 0.7200
+	Recall: [0.4, 0.8125, 0.75]
+	Precision: [0.4, 0.7647, 1.0]
+	Confusion Matrix: 
+[[ 2  3  0]
+ [ 3 13  0]
+ [ 0  1  3]]
+
+
+ comments:
+Llama 3.1 shows variability in performance across the three runs, with accuracy ranging from 72% to 84%. 
+It consistently identifies neutral and negative sentiments well, but struggles with positive sentiment, 
+as seen in lower recall and precision in some runs. Overall, its performance is inconsistent, particularly in identifying positive sentiment correctly.
+ 
+Correct:
+2620,The customers will have an access to integrated propeller and gear packages from one source .,0,0,"**CLASSIFICATION:** NEUTRAL
+I classified this sentence as neutral because it provides factual information about a product offering without expressing any strong emotions or opinions. The tone is informative and objective, indicating that the company is simply stating its capabilities rather than trying to persuade or convince anyone of a particular point of view.",1.037843316
+Comment:
+Llama 3.1 correctly classified this article as neutral because it presents factual, objective information about a product offering 
+without any emotional language or sentiment. The statement is purely informative and does not imply any positive or negative connotations, 
+aligning well with the neutral classification
+
+
+Incorrect: 861's true label is POSITIVE, but classified as NEUTRAL
+861,"( ADP News ) - Oct 31 , 2008 - Finnish food company Raisio Oyj ( OMX : RAIVV ) said today that its net profit jumped to EUR 16.4 million ( USD 20.9 m ) for the first nine months of 2008 from EUR 1.1 million for the same period of 2",1,0,"**NEUTRAL**
+I classified this article as NEUTRAL because it reports a factual financial update about Raisio Oyj's net profit, without expressing any emotion or opinion on the company's performance. The language used is objective and informative, simply stating the numerical results of the company's financials. There are no words with positive or negative connotations that would suggest a sentiment other than neutral.",1.327631496
+Comments: 
+Llama 3.1 incorrectly classified the article as neutral because it focused on the objective language used, 
+ignoring the implied positive sentiment of increased profits. While the language is factual, 
+the significant profit jump conveys a positive business outcome, which should be reflected in the sentiment classification

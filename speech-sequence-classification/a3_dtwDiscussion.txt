@@ -1,0 +1,125 @@
+################################################################
+Same Speaker, Different Settings
+
+Reference Speaker: Speaker #1
+Speaker #2: DTW = 2134.6151
+Speaker #3: DTW = 6704.9238
+Speaker #4: DTW = 3189.5733
+Speaker #5: DTW = 3345.2380
+
+When comparing Speaker #1 and Speaker #2, who are the same person recorded in different settings, the DTW distance between them is significantly lower (2134.6151) compared to the distances with other speakers. 
+This lower distance reflects the similarity in speech characteristics, such as voice tone and rhythm, despite variations introduced by the recording environment. 
+The higher distances for the other speakers indicate their speech patterns differ more substantially from the reference speaker, underscoring DTW's effectiveness in capturing intra-speaker similarities even in different settings.
+
+################################################################
+Change the Reference Speaker
+
+Reference Speaker: Speaker #1
+Speaker #2: DTW = 2134.6151
+Speaker #3: DTW = 6704.9238
+Speaker #4: DTW = 3189.5733
+Speaker #5: DTW = 3345.2380
+
+Reference Speaker: Speaker #2
+Speaker #1: DTW = 2134.6151
+Speaker #3: DTW = 6581.0701
+Speaker #4: DTW = 3246.9998
+Speaker #5: DTW = 3890.5287
+
+Reference Speaker: Speaker #4
+Speaker #1: DTW = 3189.5733
+Speaker #2: DTW = 3246.9998
+Speaker #3: DTW = 5595.5161
+Speaker #5: DTW = 4459.6315
+
+I changed the reference speaker in the main function to see how DTW distances vary when comparing other speakers to a different reference. 
+When Speaker #1 was the reference, Speaker #2 had the lowest DTW distance, indicating high similarity, while others had higher distances. 
+Changing the reference to Speaker #2 again showed the lowest distance with Speaker #1, confirming mutual similarity, while Speaker #4 showed moderate similarity. 
+Using Speaker #4 as the reference showed moderate similarity with Speaker #1 and higher distances for others. 
+These results suggest that DTW effectively captures temporal alignment and speaker variability, with distances reflecting how closely the MFCC features of each speaker align with the chosen reference.
+
+################################################################
+Use Different Segments of the Same Speaker
+
+Reference Speaker: Speaker #1 [76.5, 76.963]
+Speaker #2: DTW = 2134.6151
+Speaker #3: DTW = 6704.9238
+Speaker #4: DTW = 3189.5733
+Speaker #5: DTW = 3345.2380
+
+Reference Speaker: Speaker #1 [80, 81]
+Speaker #2: DTW = 4888.4006
+Speaker #3: DTW = 8023.6725
+Speaker #4: DTW = 5804.8845
+Speaker #5: DTW = 5548.2693
+
+When using different segments of Speaker #1 as the reference, I observed that the DTW distances increased significantly for all speakers 
+when the segment was changed from [76.5,76.963] to [80,81], while Speaker #2 still has the lowest DTW distance and Speaker #3 has the highest DTW distance.
+This indicates that even within the same speaker, different audio segments can have distinct MFCC features due to variations in pitch, speaking speed, or background noise. 
+Consequently, these differences reduce alignment, leading to higher DTW distances with other speakers. 
+The results highlight the sensitivity of DTW to temporal and spectral variations within the same speaker's speech.
+
+################################################################
+Longer Time Ranges
+
+Reference Speaker: Speaker #1
+Speaker #2: DTW = 2134.6151
+Speaker #3: DTW = 6704.9238
+Speaker #4: DTW = 3189.5733
+Speaker #5: DTW = 3345.2380
+
+Reference Speaker: Speaker #1
+Speaker #2: DTW = 7533.4859
+Speaker #3: DTW = 13480.5378
+Speaker #4: DTW = 9447.9108
+Speaker #5: DTW = 9116.6133
+
+For all the speakers, the start time remains the same, but one extra second is added to the end time.
+When the time ranges of all speakers were extended by adding one extra second to the end time, the DTW distances for all speakers increased significantly. 
+This is because the longer time range includes more temporal and spectral information, which increases the complexity of aligning the reference sequence with the candidate sequences. 
+The added variability within the extended segment introduces more mismatches, leading to higher accumulated costs in the DTW calculation. 
+This demonstrates that DTW distances are highly sensitive to the length and content of the time ranges being compared.
+
+################################################################
+Change the Number of Speakers
+
+Reference Speaker: Speaker #1
+Speaker #2: DTW = 2134.6151
+Speaker #3: DTW = 6704.9238
+Speaker #4: DTW = 3189.5733
+Speaker #5: DTW = 3345.2380
+
+Reference Speaker: Speaker #1
+Speaker #2: DTW = 2134.6151
+Speaker #3: DTW = 6704.9238
+Speaker #4: DTW = 3189.5733
+Speaker #5: DTW = 3345.2380
+Speaker #6: DTW = 4013.1788
+Speaker #7: DTW = 9530.5861
+
+When two additional speakers were added to the comparison, the DTW distances for the new speakers showed significant variation compared to the original set. 
+Speaker #6 had a relatively low DTW distance, indicating closer alignment with the reference speaker, while Speaker #7 had a much higher DTW distance, suggesting less similarity. 
+This result highlights that adding more speakers introduces greater diversity in speech patterns, leading to a broader range of DTW distances, 
+which can provide a more comprehensive understanding of the reference speaker's similarity to others.
+
+################################################################
+Vary the Hop Length
+
+    time_start = [8, 13, 13, 13]
+    time_end = [9, 14, 14, 14]
+
+    speaker_1 = extract_mfcc_segment(np.load(dataDir + 'S-24D/0.mfcc.npy'), (time_start[0], time_end[0]), 10)
+    speaker_2 = extract_mfcc_segment(np.load(dataDir + 'S-24D/0.mfcc.npy'), (time_start[1], time_end[1]), 5)
+    speaker_3 = extract_mfcc_segment(np.load(dataDir + 'S-24D/0.mfcc.npy'), (time_start[2], time_end[2]), 10)
+    speaker_4 = extract_mfcc_segment(np.load(dataDir + 'S-24D/0.mfcc.npy'), (time_start[3], time_end[3]), 20)
+
+Reference Speaker: Speaker #1
+Speaker #2: DTW = 9574.8886
+Speaker #3: DTW = 6539.1619
+Speaker #4: DTW = 5392.9902
+
+Using the same speaker (S-24D) but varying the hop_length(5, 10, 20 ms) for MFCC extraction. 
+I observed that smaller hop lengths (5 ms) produced higher DTW distances (9574.8886), while larger hop lengths (20 ms) resulted in lower distances (5392.9902). 
+This is because smaller hop lengths capture finer temporal details, amplifying differences, whereas larger hop lengths smooth out variations, making sequences appear more similar
+
+

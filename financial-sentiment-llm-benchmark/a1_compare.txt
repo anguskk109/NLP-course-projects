@@ -1,0 +1,32 @@
+Randomly sampled indices: [16, 15, 1877, 1443, 773, 2342, 1265, 949, 589, 666, 74, 1414, 1798, 481, 1312, 908, 1757, 685, 1899, 2202, 1997, 1784, 1521, 452, 1932]
+
+LLAMA 3.1
+	Accuracy: 0.1667
+	Recall: [0.0769, -100.0, 0.2727]
+	Precision: [0.3333, 0.0, 0.4286]
+	Confusion Matrix: 
+[[1 8 4]
+ [0 0 0]
+ [2 6 3]]
+
+ Results for MLPClassifier:
+	Accuracy: 0.6054
+	Recall: [np.float64(0.6478), np.float64(0.5603)]
+	Precision: [np.float64(0.6107), np.float64(0.5991)]
+	Confusion Matrix: 
+[[160  87]
+ [102 130]]
+
+
+The MLP method has higher accuracy.
+
+Llama 3.1 attempts to capture general sentiment (positive, neutral, or negative) from the text based on its pre-trained language model. 
+However, its predictions are not fine-tuned for the wsj89 dataset, which likely impacts its ability to accurately differentiate between sentiments
+
+The MLPClassifier, using TF-IDF vectorization, is specifically trained on this dataset. 
+It captures positive (1) and negative (-1) sentiments more effectively.
+
+The MLP model is better at differentiating between positive and negative sentiments,
+whereas Llama 3.1 struggles, especially with neutral predictions.
+This could be due to the fact that the MLP model was trained on the specific dataset with optimized features,
+while Llama 3.1's general-purpose language model is not fine-tuned for the specific task of sentiment analysis on this dataset

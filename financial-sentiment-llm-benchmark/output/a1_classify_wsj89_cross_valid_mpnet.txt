@@ -1,0 +1,6 @@
+Fold 0 Accuracies: [np.float64(0.6242), np.float64(0.5783)]
+Fold 1 Accuracies: [np.float64(0.6367), np.float64(0.5658)]
+Fold 2 Accuracies: [np.float64(0.5887), np.float64(0.5678)]
+Fold 3 Accuracies: [np.float64(0.62), np.float64(0.5762)]
+Fold 4 Accuracies: [np.float64(0.5711), np.float64(0.5879)]
+p-values: ['0.032841248048479564']

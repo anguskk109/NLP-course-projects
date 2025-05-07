@@ -1,0 +1,18 @@
+Results for GaussianNB:
+	Accuracy: 0.6381
+	Recall: [np.float64(0.4262), np.float64(0.7301), np.float64(0.537)]
+	Precision: [np.float64(0.4643), np.float64(0.7631), np.float64(0.4754)]
+	Confusion Matrix: 
+[[ 52  28  42]
+ [ 38 422 118]
+ [ 22 103 145]]
+
+Results for MLPClassifier:
+	Accuracy: 0.7186
+	Recall: [np.float64(0.4508), np.float64(0.8599), np.float64(0.537)]
+	Precision: [np.float64(0.6962), np.float64(0.7646), np.float64(0.6017)]
+	Confusion Matrix: 
+[[ 55  40  27]
+ [ 12 497  69]
+ [ 12 113 145]]
+

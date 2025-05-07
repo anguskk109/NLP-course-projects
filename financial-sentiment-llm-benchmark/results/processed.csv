@@ -1,0 +1,76 @@
+,idx,text,label,llama_pred,llama_explanation,compute_time
+0,2445,"Empresa de Desarrollo Urbano de Quito , INNOVAR-UIO , Ecuador has commissioned Poyry to prepare a feasibility study for a new urban rapid mass transit system .",0,0,"**CLASSIFICATION: NEUTRAL**
+
+The text is classified as neutral because it reports on a factual event (the commissioning of a feasibility study) without expressing any positive or negative emotion. The tone is objective and informative, indicating that the purpose is to convey information rather than persuade or entertain. There are no emotional words or phrases that would suggest a sentiment score other than neutral.",1.306144029
+1,2955,"In connection with the deal , Digia will employ 19 persons from Nokia in Oslo and in Silicon Valley in the USA .",0,0,"**CLASSIFICATION:** NEUTRAL
+
+The sentiment score of this text is neutral because it reports a factual business transaction between two companies, Digia and Nokia, without expressing any emotion or opinion about the deal. The tone is informative and objective, simply stating the outcome of the agreement without taking a stance or showing enthusiasm or concern.",1.101428802
+2,4087,"In February 2011 , new wording of Identity Documents Act that makes Mobile ID a state-approved electronic document as of February 1st 2011 entered into force .",0,0,"**CLASSIFICATION: NEUTRAL**
+
+The article reports on a specific piece of legislation, the Identity Documents Act, without expressing any opinion or emotion towards it. The tone is informative and factual, with no apparent bias or sentiment. This classification is justified because there are no words or phrases that suggest a positive or negative emotional tone, such as ""good"", ""bad"", ""happy"", or ""sad"". The language used is formal and objective, which is typical of news articles or official announcements.",1.556493855
+3,3879,"The order consists of outsourced application management , support and planning for Tecnotree and third-party applications .",0,0,"**CLASSIFIED AS: NEUTRAL**
+
+I classified this text as neutral because it appears to be a descriptive statement outlining the scope of services offered, without any emotional or evaluative language. The text is factual and objective in nature, providing information about outsourced application management, support, and planning for Tecnotree and third-party applications. There are no words with strong positive or negative connotations that would suggest a particular sentiment.",1.368531479
+4,2620,The customers will have an access to integrated propeller and gear packages from one source .,0,0,"**CLASSIFICATION:** NEUTRAL
+
+This sentence is classified as neutral because it provides factual information about a product or service offering without expressing any emotion or opinion. The tone is informative and objective, with no clear indication of positivity or negativity. The use of phrases like ""one source"" also implies a sense of convenience or efficiency, but this is not strong enough to tip the sentiment towards positive.",1.293679109
+5,17,"HELSINKI ( AFX ) - Shares closed higher , led by Nokia after it announced plans to team up with Sanyo to manufacture 3G handsets , and by Nokian Tyres after its fourth-quarter earnings report beat analysts ' expectations , dealers said .",1,1,"**CLASSIFICATION: POSITIVE**
+
+The article is classified as positive because the tone is upbeat and optimistic, indicating a rise in stock prices. The use of phrases such as ""Shares closed higher"" and ""beat analysts' expectations"" convey a sense of success and achievement, which contributes to the overall positive sentiment. Additionally, the mention of Nokia's partnership with Sanyo and Nokian Tyres' earnings report suggests that these companies are performing well, further reinforcing the positive tone.",1.535311686
+6,861,"( ADP News ) - Oct 31 , 2008 - Finnish food company Raisio Oyj ( OMX : RAIVV ) said today that its net profit jumped to EUR 16.4 million ( USD 20.9 m ) for the first nine months of 2008 from EUR 1.1 million for the same period of 2",1,1,"**CLASSIFIED AS: POSITIVE**
+
+The article is classified as positive because it reports a significant increase in net profit, from EUR 1.1 million to EUR 16.4 million, which indicates financial success and growth for the company, Raisio Oyj. This positive outcome is likely to be perceived as good news by investors and stakeholders, hence the classification of the article as positive.",1.308893816
+7,3755,Tekla Group 's net sales for 2006 were approximately 50 million euros and operating result 13.6 million euros .,0,0,"**CLASSIFICATION: NEUTRAL**
+
+The sentiment score of this article is neutral because it presents a factual report on the Tekla Group's financial performance, without expressing any positive or negative emotions. The language used is objective and matter-of-fact, stating the company's net sales and operating result in a straightforward manner. There are no words with strong connotations or emotional tone, making the overall sentiment of this article neutral.",1.361775283
+8,2925,"Glaston 's own glass processing unit , Tamglass Glass Processing , is a manufacturer of high quality safety glass products , and operates in Finland .",0,0,"**CLASSIFIED AS: NEUTRAL**
+
+This article is classified as neutral because it provides factual information about Glaston's business operations, specifically its manufacturing arm, Tamglass Glass Processing. The language used is objective and matter-of-fact, without any emotional tone or bias. The text does not express a clear opinion or sentiment, making the overall classification neutral.",1.19996156
+9,1800,Finnish insurance company Fennia and Kesko Group are ending their loyal customer cooperation .,-1,-1,"**NEGATIVE**
+
+The article reports on a negative development, specifically that two companies (Fennia and Kesko Group) are ending their cooperative relationship. This implies a loss or disruption of business operations, which is typically considered a negative event. The tone is neutral/informative, but the content itself has a negative connotation.",1.112753939
+10,3079,Panostaja did not disclose the purchase price .,0,-1,"**NEGATIVE**
+
+I classified this article as negative because it mentions that Panostaja, likely a company or entity, failed to disclose the purchase price of something. This implies that there was an expectation for transparency and that the lack thereof is viewed unfavorably. The tone is thus negative, suggesting that the reader may view Panostaja's actions as suspicious or untrustworthy.",1.228583593
+11,2606,The company then said it will focus its resources on clinical research .,0,0,"**CLASSIFIED AS: NEUTRAL**
+
+This text is classified as neutral because it simply states a fact or intention without expressing any strong positive or negative emotions. The language used is objective and matter-of-fact, indicating that the company's decision to focus on clinical research does not inherently carry an emotional tone.",1.035349096
+12,4744,"In the Baltic countries , sales fell by 42.6 % .",-1,-1,"**CLASSIFICATION: NEGATIVE**
+
+The article is classified as negative because it reports a decline in sales by a significant percentage (42.6%). This indicates a negative economic trend, which is often associated with decreased consumer confidence, reduced spending power, and overall economic downturn. The use of the word ""fell"" also implies a downward movement, further emphasizing the negative tone.",1.206156316
+13,2104,"Finnish Metso will supply new wood handling and bleaching lines , as well as a rebuild of the kraft liner washing line for Klabin 's Tel+¬maco Borba mill in the Brazilian state of Paran+í .",1,0,"**CLASSIFIED AS: NEUTRAL**
+
+The article is classified as neutral because it reports on a factual business transaction between Metso and Klabin, without expressing any emotional tone or opinion. The language used is objective and informative, simply stating the details of the supply contract without any positive or negative connotations.",1.049287099
+14,2388,"According to the company , the lay-offs will be temporary .",0,0,"**CLASSIFICATION: NEUTRAL**
+
+I classify this sentence as neutral because it does not express a strong positive or negative sentiment. The phrase ""lay-offs"" has a slightly negative connotation, but the word ""temporary"" mitigates its impact and implies that the situation is not permanent or irreversible. Overall, the tone of the sentence is informative and matter-of-fact rather than emotional or sensational.",1.298947148
+15,4609,"At 1.33 pm , the OMX Helsinki 25 was 0.30 pct lower at 2,463.67 and the OMX Helsinki was down 0.37 pct at 8,537.42 on volume of 256 mln eur .",-1,-1,"**CLASSIFICATION:** NEGATIVE
+
+The article is classified as negative due to the mention of both indices (OMX Helsinki 25 and OMX Helsinki) being ""down"" by a certain percentage, indicating a decline in stock market performance. The use of words like ""lower"", ""down"", and ""decline"" convey a sense of negativity, suggesting that the overall sentiment is pessimistic or bearish regarding the Finnish stock market.",1.388111319
+16,3836,The energy sector accounted for approximately 33 % and the steel industry for about 57 % of the transportation volume .,0,0,"**CLASSIFICATION: NEUTRAL**
+
+This article is classified as neutral because it presents a factual statement about the composition of transportation volume in terms of different sectors (energy and steel), without expressing any emotional tone or bias. The language used is objective and matter-of-fact, providing information without taking a stance or making a value judgment.",1.116796206
+17,1181,"As the world leaders in developing UV technology for municipal wastewater , drinking water , and industrial water treatment systems , Trojan Technologies was a logical partner in providing W+ñrtsil+ñ with UV technology for ballast water treatment .",0,0,"**CLASSIFICATION: NEUTRAL**
+
+I classified this text as neutral because it provides factual information about Trojan Technologies' partnership with Wärtsilä, without expressing any emotional tone or bias. The language used is formal and objective, describing a business partnership and its application to a specific industry (ballast water treatment). There are no words or phrases that suggest a positive or negative sentiment, such as praise, criticism, or excitement.",1.390771457
+18,1357,The business section also includes Ahlstrom 's sustainability report .,0,0,"**CLASSIFIED AS: NEUTRAL**
+
+This article is classified as neutral because it reports on a company's (Ahlstrom) sustainability report without expressing any strong emotions or opinions, either positive or negative. The tone is informative and factual, presenting the report as a regular business section item rather than trying to persuade or entertain the reader.",1.129362458
+19,27,"Operating profit for the nine-month period increased from EUR13 .6 m , while net sales increased from EUR394 .7 m , as compared to the corresponding period in 2005 .",1,1,"**CLASSIFICATION: POSITIVE**
+
+The text is classified as positive because it reports an increase in operating profit and net sales, which are financial metrics that indicate a company's growth and success. The use of phrases such as ""increased from"" and ""as compared to the corresponding period in 2005"" suggests a comparison to a previous year, implying improvement and progress. This indicates a positive sentiment towards the company's performance.",1.375558269
+20,942,Cargotec Germany GmbH has been awarded a contract by Stadtverwaltung Mainz for chassis bodies under Open procedure .,1,0,"**CLASSIFICATION: NEUTRAL**
+
+The article is classified as neutral because it reports on a factual event, namely the awarding of a contract to Cargotec Germany GmbH. The language used is objective and does not express any emotional tone or bias towards the company or the contract. There are no words with strong positive or negative connotations, such as ""exciting"", ""successful"", ""disappointing"" or ""unfortunate"". The article simply states the facts of the situation, making it a neutral report.",1.62415634
+21,3994,"Production levels have been agreed with producers a long time ago , so a fall in consumption will lead to losses .",-1,-1,"**NEGATIVE**
+
+The sentence is classified as negative because it mentions ""losses"", which implies a negative outcome or consequence. The tone of the statement is also cautionary, warning that a decrease in consumption will lead to financial losses, indicating a pessimistic sentiment.",0.924345662
+22,2007,Both companies ' existing investment plans will be coordinated .,0,0,"**NEUTRAL**
+
+The sentence is neutral because it reports on a factual decision or plan made by two companies without expressing any opinion, emotion, or bias towards the outcome. The language used is straightforward and objective, indicating no strong sentiment one way or the other. The focus is on conveying information about the coordination of investment plans rather than evoking an emotional response.",1.197947986
+23,3634,In July it and Quadriga Capital sold their Lewa GmbH pump-making business to Japan 's Nikkiso Co. .,0,0,"**CLASSIFICATION: NEUTRAL**
+
+The article is classified as neutral because it reports a factual event, namely the sale of a company, without expressing any opinion or emotion about it. The tone is objective and matter-of-fact, conveying information without attempting to persuade or influence the reader's emotions.",1.020640506
+24,3395,The value of the order is USD 2.2 mn .,0,1,"**CLASSIFIED AS: POSITIVE**
+
+This article is classified as positive because it mentions a significant monetary value (USD 2.2 million) which implies a substantial and desirable outcome, likely resulting from a successful business deal or investment. The tone of the statement is formal and matter-of-fact, suggesting a neutral to positive sentiment.",1.109133643
