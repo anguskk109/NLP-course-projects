@@ -73,5 +73,5 @@ This project involves building a complete Transformer encoder-decoder model from
 ---
 
 
-> **Note**: The original datasets are hosted on the university's `teach.cs` servers and are not included in this public repository for copyright reasons.
+> **Note**: The original datasets are hosted on the UofT servers and are not included in this public repository for copyright reasons.
 
